@@ -1,6 +1,5 @@
-package com.example.words
+package com.example.words.helpers
 
-import androidx.appcompat.app.AppCompatActivity
 import android.annotation.SuppressLint
 import android.os.Build
 import android.os.Bundle
@@ -10,6 +9,7 @@ import android.view.View
 import android.view.WindowInsets
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.words.databinding.ActivityFullscreenBinding
 
 /**

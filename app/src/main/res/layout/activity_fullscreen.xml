@@ -16,8 +16,8 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:text="@string/dummy_content"
-        android:textColor="?attr/fullscreenTextColor"
+        android:text="@string/app_name"
+        android:textColor="#37474F"
         android:textSize="50sp"
         android:textStyle="bold" />
 
@@ -43,7 +43,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/dummy_button" />
+                android:text="@string/welcome"
+                android:textColor="#80D8FF" />
 
         </LinearLayout>
 
@@ -51,13 +52,18 @@
             android:id="@+id/checkBox"
             android:layout_width="126dp"
             android:layout_height="114dp"
-            android:text="CheckBox" />
+            android:text="@string/checkbox"
+            android:textColor="#212121" />
 
-        <Switch
+        <androidx.appcompat.widget.SwitchCompat
             android:id="@+id/switch1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Switch" />
+            android:minHeight="32dp"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="@android:string/selectAll"
+            android:textColor="#212121"
+            android:translationX="280dp" />
     </FrameLayout>
 
 </FrameLayout>
